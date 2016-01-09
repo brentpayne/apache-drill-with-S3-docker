@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+  <property>
+    <name>fs.s3a.access.key</name>
+    <value>PLACE_YOUR_ACCESS_KEY_HERE</value>
+    </property>
+
+  <property>
+    <name>fs.s3a.secret.key</name>
+    <value>PLACE_YOUR_SECRET_KEY_HERE_IT_IS_LONGER_THAN_THE_ACCESS_KEY</value>
+    </property>
+
+  <property>
+    <name>fs.s3a.connection.maximum</name>
+    <value>10000</value>
+    </property>
+
+</configuration>
+
