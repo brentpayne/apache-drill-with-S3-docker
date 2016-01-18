@@ -27,4 +27,4 @@ ADD cp.sys.drill /drill-storage/sys.storage_plugins/cp.sys.drill
 ADD dfs.sys.drill /drill-storage/sys.storage_plugins/dfs.sys.drill
 ADD s3.sys.drill /drill-storage/sys.storage_plugins/s.sys.drill
 
-ENV BOOTSTRAP /etc/bootstrap.sh
+CMD bash /etc/bootstrap.sh
