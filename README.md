@@ -17,12 +17,12 @@ Insert your project's info into these files
 
 *s3.sys.drill*
 S3 drill storage definition
- -  : replace *YOUR_S3_BUCKET* with your S3 bucket's repo.
- -  : [OPTIONAL] it is always good to have you own workspace, so create a _data_ folder in your S3 bucket or change the _data_ workspace with the key-prefix/folder for your data.
+ -  replace *YOUR_S3_BUCKET* with your S3 bucket's repo.
+ - [OPTIONAL] it is always good to have you own workspace, so create a _data_ folder in your S3 bucket or change the _data_ workspace with the key-prefix/folder for your data.
 
 *core-site.xml*
 Apache Drill configuration file that sets up AWS credentials.  NOTE: the max S3 connections is set pretty high here.
- -  :  Insert AWS credentials that have access to your S3 bucket for *PLACE_YOUR_ACCESS_KEY_HERE* and *PLACE_YOUR_SECRET_KEY_HERE_IT_IS_LONGER_THAN_THE_ACCESS_KEY*
+ -  Insert AWS credentials that have access to your S3 bucket for *PLACE_YOUR_ACCESS_KEY_HERE* and *PLACE_YOUR_SECRET_KEY_HERE_IT_IS_LONGER_THAN_THE_ACCESS_KEY*
 
 ## Run drill with S3 connections
 If you don't already have docker + docker-machine install skip to the reference section
